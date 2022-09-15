@@ -1,7 +1,47 @@
-* { box-sizing: border-box; }
+* { box-sizing: border-box; } 
 
 html,
 body {
   margin: 0;
+  
 }
 
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  max-width: 700px;
+  color: #D8B340;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url(https://ex.smnarnold.com/git/radars-vivants/fillette-de-face.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.description {
+  font-family: 'Times New Roman', Times, serif;
+  color: #161616;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D8B340;
+}
+
+.wrapper {
+ padding: 20px;
+ max-width: 700px;
+}
+
+.video {
+  width: 100%;
+}
